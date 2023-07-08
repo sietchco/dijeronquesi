@@ -5,7 +5,7 @@ import { As, FormControl, FormErrorMessage, FormLabel, Input } from '@chakra-ui/
 export type FormInputProps = {
   errors: FieldErrors<FieldValues>
   inputProps: Record<string, any>
-  controlProps: Record<string, any>
+  controlProps?: Record<string, any>
   label?: React.ReactNode
   placeholder: string
   as?: As
